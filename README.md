@@ -3,7 +3,7 @@ Introduction:-
 This project is a basic implementation of an event management system using Solidity. The contract allows event organizers to create events, set ticket prices and quantities, and manage ticket sales. Users can buy and transfer tickets to events.
 
 Contract:-
-The contract is located in the contracts folder and is named EventContract.sol. It has the following functions:
+The contract is located in the contracts folder and is named Event.sol. It has the following functions:
 createEvent: allows event organizers to create new events
 buyTicket: allows users to buy tickets to events
 transferTicket: allows users to transfer tickets to other users
@@ -30,5 +30,5 @@ tickets: a mapping of user addresses to event IDs, with fields for the quantity 
 Security:-
 This contract has not been audited and should not be used in production without further testing and review.
 
-Code
+Code:-
 The contract code is located in the contracts folder and is named Event.sol.
